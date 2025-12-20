@@ -1,5 +1,67 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 100%;
+}
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: 375px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 1245px) {
+  .container {
+    max-width: 1245px;
+  }
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-list {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 14px;
+  color: #ae1332;
+}
+
+.nav-logo {
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 14px;
+  color: #ae1332;
+}
+
 .organic__title {
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-weight: 500;
   font-size: 28px;
   line-height: 28px;
@@ -9,8 +71,9 @@
   margin-top: 0;
   margin-bottom: 14px;
 }
+
 .organic__text {
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
@@ -19,57 +82,66 @@
   margin-top: 0;
   margin-bottom: 44px;
 }
+
 .organic__item:nth-child(1) {
   border-radius: 20px;
   width: 335px;
   height: 465px;
   background: #f8766b;
 }
+
 .organic__item:nth-child(2) {
   border-radius: 20px;
   width: 335px;
   height: 465px;
   background: #edd251;
 }
+
 .organic__item:nth-child(3) {
   border-radius: 20px;
   width: 335px;
   height: 465px;
   background: #9dc262;
 }
+
 .organic__item:nth-child(4) {
   border-radius: 20px;
   width: 335px;
   height: 465px;
   background: #bfd663;
 }
+
 .organic__item:nth-child(5) {
   border-radius: 20px;
   width: 335px;
   height: 465px;
   background: #e93f29;
 }
+
 .organic__item:nth-child(6) {
   border-radius: 20px;
   width: 335px;
   height: 465px;
   background: #db4f4b;
 }
+
 .organic__item:nth-child(7) {
   border-radius: 20px;
   width: 335px;
   height: 465px;
   background: #9b5366;
 }
+
 .organic__item:nth-child(8) {
   border-radius: 20px;
   width: 335px;
   height: 465px;
   background: #f47f4c;
 }
+
 .organic__item:nth-child(9) {
   border-radius: 20px;
   width: 335px;
   height: 465px;
   background: #98b37e;
-}
+}/*# sourceMappingURL=index.css.map */
