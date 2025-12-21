@@ -13,7 +13,7 @@ ul {
   list-style: none;
 }
 
-.body {
+body {
   background-color: #AE1332;
 }
 
@@ -97,6 +97,21 @@ ul {
   vertical-align: middle;
   text-transform: uppercase;
   color: #fff;
+}
+.hero__text {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -4%;
+  vertical-align: middle;
+}
+.hero__example {
+  width: 249px;
+  height: 387px;
+  border-radius: 500px;
+  background-color: #A4CB66;
 }
 
 .footer {
