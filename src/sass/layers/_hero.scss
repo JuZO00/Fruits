@@ -102,9 +102,6 @@
   }
   &__text {
     font-family: 'DM Sans', sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 14px;
     line-height: 18px;
     letter-spacing: -4%;
     vertical-align: middle;
@@ -156,18 +153,17 @@
     &__name {
       font-family: 'DM Sans', sans-serif;
       font-weight: 400;
-      font-style: normal;
       font-size: 12px;
+      color: #ffffff;
       line-height: 14px;
       letter-spacing: -4%;
       text-align: center;
       vertical-align: middle;
-      color: #fff;
       margin-bottom: 61px;
     }
     &__description {
       font-family: 'DM Sans', sans-serif;
-      font-weight: 500;
+font-weight: 500;
       font-style: Medium;
       font-size: 12px;
       line-height: 14px;
@@ -175,8 +171,7 @@
       text-align: center;
       vertical-align: middle;
       text-transform: uppercase;
-      color: #fff;
-    }
+      color: #ffffff;
   }
 }
 .hero__item:last-child .hero__example__name {
@@ -185,11 +180,12 @@
 .hero__item:last-child .hero__example {
   padding: 28px 44px 40px 43px;
   background-color: #f5ce13;
+  margin-bottom: 44px;
 }
 .hero__item:last-child {
   @media screen and (min-width: 768px) {
     display: flex;
     flex-direction: column-reverse;
-    gap: 44px;
   }
+}
 }
